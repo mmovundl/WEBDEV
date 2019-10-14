@@ -1,0 +1,38 @@
+
+<Html>
+   <head>
+       <meta charset=“utf-8”>
+       <title>My Shop</title>
+       <link rel=“stylesheet” href=“css/style.css” type = "text/css”">
+   </head>
+   <body>
+       <!-- Handle the header and the navigation bar-->
+       <div>
+
+       </div>
+       <!-- This is where content will ne displayed -->
+       <div class=“slider”>
+           <?php
+               $sql = “SELECT * FROM products”;
+               $result = mysqli_query($conn, $sql);
+               if (mysqli_num_rows($result) > 0){
+               while ($row=mysqli_fetch_row($result)){
+                   echo ‘<div class=“slide” id=“slide_1”>
+                   <div class=“image_div”><img src=“‘.$row[3].‘“></div>
+                   <div class=“details”>
+                   <div class=“name display”>‘.$row[0].‘</div>
+                   <div class=“quantity display”>‘.$row[2].‘</div>
+                   <div class=“price “>‘.$row[1].‘</div>
+                   <div class=“descritioin”>Teddy buddy hug</div>
+                   </div></div>’;
+               }
+               }
+           ?>
+       </div>
+       <!-- This is where the other things come in to play -->
+   </body>
+</Html>
+
+<?php
+mysqli_close($conn);
+?>

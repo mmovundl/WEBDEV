@@ -1,15 +1,26 @@
 <!DOCTYPE html>
 <head>
 	<title>
-		
+		Mendeleiev
 	</title>
 	<style >
 		table{
-			align-self: :center;
-			border-color:white;
+		border-color:rgb(255, 255, 255);
+			table-layout: fixed;
+		}
+		table {
+  table-layout: fixed ;
+  width: 70% ;
+}
+td {
+  width: 25% ;
+}
+		td{
+			width:max-content;
+			height: max-content;
 		}
 		sub{
-			text-align: left;
+			text-align:end;
 			font-size: small;			
 		}
 		sup{
@@ -17,174 +28,196 @@
 			font-size: small;
 		}
 		.empty{
+			background-color: white;
 			border-left: 0;
 			border-right: 0;
 			border-top: 0; 
 			border-bottom: 0
 		}
+		td{
+			width:auto;
+		}
+		.image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 15%;
+}
 		
 	</style>
 </head>
-<body>
-	<div style="width: 50%" class="image"></div>
-	<div style = "width: 50%" class="table">
-	<table style="align-content: center;" align="center" border="border-color:white">
+<body style="align-items: flex-end">
+	<section><h1 style="text-align: center">Perdiodic table</h1></section>
+	<section >
+		<img class="image" src="https://j7d4t9e3.stackpathcdn.com/wp-content/uploads/2019/05/Mendeleev1.png" >
+	</section>
+	<div  class="table">
+	<table style="align-content: center;" class = "empty" align="center" border="border-color:white" contenteditable="true">
 		<tr>
-			<td bgcolor="green"><sub>1</sub><strong>H</strong><sup>1.008</sup></td>
+			<td bgcolor="green"><div style="text-align: right"><sub>1.008</sub></div><div style="text-align: center"><strong>H</strong></div><sup>1<sup></td>
 			<td colspan="16" class = "empty"></td>
-			<td bgcolor="blue"><sub>2</sub><strong>He</strong><sup>4.0028</sup></td>
+			<td style="background:red"><div style="text-align: right"><sub>4.0026</sub></div><div style="text-align: center"><strong>He</strong></div><sup>2<sup></td>
 		</tr>
-		<tr>
-			<td bgcolor="orange"><sub>3</sub><strong>Li</strong><sup>6.94</sup></td>
-			<td bgcolor="yellow"><sub>4</sub><strong>Be</strong><sup>9.0122</sup></td>
-			<td colspan="10" class = "empty"></td>
-			<td bgcolor="blue"><sub>5</sub><strong>B</strong><sup>10.18</sup></td>
-			<td bgcolor="green"><sub>6</sub><strong>C</strong><sup>12.11</sup></td>
-			<td bgcolor="green"><sub>7</sub><strong>N</strong><sup>14.007</sup></td>
-			<td bgcolor="green"><sub>8</sub><strong>O</strong><sup>15.999</sup></td>
-			<td bgcolor="green"><sub>9</sub><strong>F</strong><sup>18.996</sup></td>
-			<td bgcolor="blue"><sub>10</sub><strong>Ne</strong><sup>20.180</sup></td>
-		</tr>
-		<tr>
-			<td bgcolor="orange"><sub>11</sub><strong>Na</strong><sup>22.990</sup></td>
-			<td bgcolor="yellow"><sub>12</sub><strong>Mg</strong><sup>24.305</sup></td>
-			<td colspan="10" class = "empty"></td>
-			<td bgcolor="blue"><sub>13</sub><strong>Al</strong><sup>26.892</sup></td>
-			<td bgcolor="green"><sub>14</sub><strong>Si</strong><sup>34</sup></td>
-			<td bgcolor="green"><sub>15</sub><strong>P</strong><sup>34</sup></td>
-			<td bgcolor="green"><sub>16</sub><strong>S</strong><sup>34</sup></td>
-			<td bgcolor="green"><sub>17</sub><strong>Cl</strong><sup>34</sup></td>
-			<td bgcolor="blue"><sub>18</sub><strong>Ar</strong><sup>34</sup></td>
-
+		<tr style="background:green">
+				<td style="background:greenyellow"><div style="text-align: right"><sub>6.94</sub></div><div style="text-align: center"><strong>Li</strong></div><sup>3<sup></td>
+				<td style="background:blue"><div style="text-align: right"><sub>9.0122</sub></div><div style="text-align: center"><strong>Be</strong></div><sup>4<sup></td>
+				<td colspan="10" class = "empty"></td>
+				<td style="background:plum"><div style="text-align: right"><sub>10.81</sub></div><div style="text-align: center"><strong>B</strong></div><sup>5<sup></td>
+				<td style="background:aquamarine"><div style="text-align: right"><sub>12.33</sub></div><div style="text-align: center"><strong>C</strong></div><sup>6<sup></td>
+				<td style="background:aquamarine"><div style="text-align: right"><sub>12.44</sub></div><div style="text-align: center"><strong>N</strong></div><sup>7<sup></td>
+				<td style="background:aquamarine"><div style="text-align: right"><sub>15</sub></div><div style="text-align: center"><strong>O</strong></div><sup>8<sup></td>
+				<td style="background:burlywood"><div style="text-align: right"><sub>16.67</sub></div><div style="text-align: center"><strong>F</strong></div><sup>9<sup></td>
+				<td style="background:red"><div style="text-align: right"><sub>20.34
+				</sub></div><div style="text-align: center"><strong>Ne</strong></div><sup>10<sup></td>
+			
 			
 		</tr>
 		<tr>
-			<td bgcolor="orange"><sub>19</sub><strong>K</strong><sup>34</sup></td>
-			<td bgcolor="yellow"><sub>20</sub><strong>Ca</strong><sup>34</sup></td>
-			<td bgcolor="red"><sub>21</sub><strong>Sc</strong><sup>34</sup></td>
-			<td bgcolor="red"><sub>22</sub><strong>Ti</strong><sup>34</sup></td>
-			<td bgcolor="red"><sub>23</sub><strong>V</strong><sup>34</sup></td>
-			<td bgcolor="red"><sub>24</sub><strong>Cr</strong><sup>34</sup></td>
-			<td bgcolor="red"><sub>25</sub><strong>Mn</strong><sup>34</sup></td>
-			<td bgcolor="red"><sub>26</sub><strong>Fe</strong><sup>34</sup></td>
-			<td bgcolor="red"><sub>27</sub><strong>Co</strong><sup>34</sup></td>
-			<td bgcolor="red"><sub>28</sub><strong>Ni</strong><sup>34</sup></td>
-			<td bgcolor="red"><sub>29</sub><strong>Cu</strong><sup>34</sup></td>
-			<td bgcolor="red"><sub>30</sub><strong>Zn</strong><sup>34</sup></td>
-			<td bgcolor="blue"><sub>31</sub><strong>Ga</strong><sup>34</sup></td>
-			<td bgcolor="blue"><sub>32</sub><strong>Ge</strong><sup>34</sup></td>
-			<td bgcolor="green"><sub>33</sub><strong>As</strong><sup>34</sup></td>
-			<td bgcolor="green"><sub>34</sub><strong>Se</strong><sup>34</sup></td>
-			<td bgcolor="green"><sub>35</sub><strong>Br</strong><sup>34</sup></td>
-			<td bgcolor="blue"><sub>36</sub><strong>Kr</strong><sup>34</sup></td>
-		</tr>
-		<tr>
-			<td bgcolor="orange"><sub>37</sub><strong>Rb</strong><sup>34</sup></td>
-			<td bgcolor="yellow"><sub>38</sub><strong>Sr</strong><sup>34</sup></td>
-			<td bgcolor="red"><sub>39</sub><strong>Y</strong><sup>34</sup></td>
-			<td bgcolor="red"><sub>40</sub><strong>Zr</strong><sup>34</sup></td>
-			<td bgcolor="red"><sub>41</sub><strong>Nb</strong><sup>34</sup></td>
-			<td bgcolor="red"><sub>42</sub><strong>Mo</strong><sup>34</sup></td>
-			<td bgcolor="red"><sub>43</sub><strong>Tc</strong><sup>34</sup></td>
-			<td bgcolor="red"><sub>44</sub><strong>Ru</strong><sup>34</sup></td>
-			<td bgcolor="red"><sub>45</sub><strong>Rh</strong><sup>34</sup></td>
-			<td bgcolor="red"><sub>46</sub><strong>Pd</strong><sup>34</sup></td>
-			<td bgcolor="red"><sub>47</sub><strong>Ag</strong><sup>34</sup></td>
-			<td bgcolor="red"><sub>48</sub><strong>Cd</strong><sup>34</sup></td>
-			<td bgcolor="blue"><sub>49</sub><strong>In</strong><sup>34</sup></td>
-			<td bgcolor="blue"><sub>50</sub><strong>Sn</strong><sup>34</sup></td>
-			<td bgcolor="blue"><sub>51</sub><strong>Sb</strong><sup>34</sup></td>
-			<td bgcolor="green"><sub>52</sub><strong>Te</strong><sup>34</sup></td>
-			<td bgcolor="green"><sub>53</sub><strong>I</strong><sup>34</sup></td>
-			<td bgcolor="blue"><sub>54</sub><strong>Xe</strong><sup>34</sup></td>
-		</tr>
-		<tr>
-			<td bgcolor="orange"><sub>55</sub><strong>Cs</strong><sup>34</sup></td>
-			<td bgcolor="yellow"><sub>56</sub><strong>Ba</strong><sup>34</sup></td>
-			<td class = "empty" colspan="1"></td>
-			<td bgcolor="red"><sub>72</sub><strong>Hf</strong><sup>34</sup></td>
-			<td bgcolor="red"><sub>73</sub><strong>Ta</strong><sup>34</sup></td>
-			<td bgcolor="red"><sub>74</sub><strong>W</strong><sup>34</sup></td>
-			<td bgcolor="red"><sub>75</sub><strong>Re</strong><sup>34</sup></td>
-			<td bgcolor="red"><sub>76</sub><strong>Os</strong><sup>34</sup></td>
-			<td bgcolor="red"><sub>77</sub><strong>Ir</strong><sup>34</sup></td>
-			<td bgcolor="red"><sub>78</sub><strong>Pt</strong><sup>34</sup></td>
-			<td bgcolor="red"><sub>79</sub><strong>Au</strong><sup>34</sup></td>
-			<td bgcolor="red"><sub>80</sub><strong>Hg</strong><sup>34</sup></td>
-			<td bgcolor="blue"><sub>81</sub><strong>Tl</strong><sup>34</sup></td>
-			<td bgcolor="blue"><sub>82</sub><strong>Pb</strong><sup>34</sup></td>
-			<td bgcolor="blue"><sub>83</sub><strong>Bi</strong><sup>34</sup></td>
-			<td bgcolor="blue"><sub>84</sub><strong>Po</strong><sup>34</sup></td>
-			<td bgcolor="grey"><sub>85</sub><strong>At</strong><sup>34</sup></td>
-			<td bgcolor="blue"><sub>86</sub><strong>Rn</strong><sup>34</sup></td>
+					<td style="background:greenyellow"><div style="text-align: right"><sub>22.34</sub></div><div style="text-align: center"><strong>Na</strong></div><sup>11<sup></td>
+					<td style="background:blue"><div style="text-align: right"><sub>24.54</sub></div><div style="text-align: center"><strong>Mg</strong></div><sup>12<sup></td>
+					<td colspan="10" class = "empty"></td>
+					<td style="background:yellow"><div style="text-align: right"><sub>23.584</sub></div><div style="text-align: center"><strong>Al</strong></div><sup>13<sup></td>
+					<td style="background:plum"><div style="text-align: right"><sub>26.484</sub></div><div style="text-align: center"><strong>Si</strong></div><sup>14<sup></td>
+					<td style="background:aquamarine"><div style="text-align: right"><sub>26.343</sub></div><div style="text-align: center"><strong>P</strong></div><sup>15<sup></td>
+					<td style="background:aquamarine"><div style="text-align: right"><sub>27.543</sub></div><div style="text-align: center"><strong>S</strong></div><sup>16<sup></td>
+					<td style="background:burlywood"><div style="text-align: right"><sub>28.453</sub></div><div style="text-align: center"><strong>Cl</strong></div><sup>17<sup></td>
+					<td style="background:red"><div style="text-align: right"><sub>39.934</sub></div><div style="text-align: center"><strong>Ar</strong></div><sup>18<sup></td>
+				
 						
-			
-			
+					
 		</tr>
-		<tr>
-			<td bgcolor="orange"><sub>87</sub><strong>Fr</strong><sup>34</sup></td>
-			<td bgcolor="yellow"><sub>88</sub><strong>Ra</strong><sup>34</sup></td>
-			<td class = "empty" colspan="1"></td>
-			<td bgcolor="red"><sub>104</sub><strong>Rf</strong><sup>34</sup></td>
-			<td bgcolor="red"><sub>105</sub><strong>Db</strong><sup>34</sup></td>
-			<td bgcolor="red"><sub>106</sub><strong>Sg</strong><sup>34</sup></td>
-			<td bgcolor="red"><sub>107</sub><strong>Bh</strong><sup>34</sup></td>
-			<td bgcolor="red"><sub>108</sub><strong>Hs</strong><sup>34</sup></td>
-			<td bgcolor="grey"><sub>109</sub><strong>Mt</strong><sup>34</sup></td>
-			<td bgcolor="grey"><sub>110</sub><strong>Ds</strong><sup>34</sup></td>
-			<td bgcolor="grey"><sub>111</sub><strong>Rg</strong><sup>34</sup></td>
-			<td bgcolor="red"><sub>112</sub><strong>Cn</strong><sup>34</sup></td>
-			<td bgcolor="grey"><sub>113</sub><strong>Nh</strong><sup>34</sup></td>
-			<td bgcolor="blue"><sub>114</sub><strong>Fl</strong><sup>34</sup></td>
-			<td bgcolor="grey"><sub>115</sub><strong>Mc</strong><sup>34</sup></td>
-			<td bgcolor="grey"><sub>116</sub><strong>Lv</strong><sup>34</sup></td>
-			<td bgcolor="grey"><sub>117</sub><strong>Ts</strong><sup>34</sup></td>
-			<td bgcolor="grey"><sub>118</sub><strong>Og</strong><sup>34</sup></td>
+		<tr style="background: purple">
+					<td style="background:greenyellow"><div style="text-align: right"><sub>39.99</sub></div><div style="text-align: center"><strong>K</strong></div><sup>19<sup></td>
+					<td style="background:blue"><div style="text-align: right"><sub>40.564</sub></div><div style="text-align: center"><strong>Ca</strong></div><sup>20<sup></td>
+					<td ><div style="text-align: right"><sub>44.654</sub></div><div style="text-align: center"><strong>Sc</strong></div><sup>21<sup></td>
+					<td ><div style="text-align: right"><sub>47.564</sub></div><div style="text-align: center"><strong>Ti</strong></div><sup>22<sup></td>
+					<td ><div style="text-align: right"><sub>50.798</sub></div><div style="text-align: center"><strong>V</strong></div><sup>23<sup></td>
+					<td ><div style="text-align: right"><sub>51.343</sub></div><div style="text-align: center"><strong>Cr</strong></div><sup>24<sup></td>
+					<td ><div style="text-align: right"><sub>54.567</sub></div><div style="text-align: center"><strong>Mn</strong></div><sup>25<sup></td>
+					<td ><div style="text-align: right"><sub>55.67</sub></div><div style="text-align: center"><strong>Fe</strong></div><sup>26<sup></td>
+					<td ><div style="text-align: right"><sub>58.675</sub></div><div style="text-align: center"><strong>Co</strong></div><sup>27<sup></td>
+					<td ><div style="text-align: right"><sub>58.643</sub></div><div style="text-align: center"><strong>Ni</strong></div><sup>28<sup></td>
+					<td ><div style="text-align: right"><sub>63.45</sub></div><div style="text-align: center"><strong>Cu</strong></div><sup>29<sup></td>
+					<td ><div style="text-align: right"><sub>65.67</sub></div><div style="text-align: center"><strong>Zn</strong></div><sup>30<sup></td>
+					<td style="background:yellow"><div style="text-align: right"><sub>66.78</sub></div><div style="text-align: center"><strong>Ga</strong></div><sup>31<sup></td>
+					<td style="background:plum"><div style="text-align: right"><sub>66.789</sub></div><div style="text-align: center"><strong>Ge</strong></div><sup>32<sup></td>
+					<td style="background:plum"><div style="text-align: right"><sub>67.89</sub></div><div style="text-align: center"><strong>As</strong></div><sup>33<sup></td>
+					<td style="background:aquamarine"><div style="text-align: right"><sub>69.79</sub></div><div style="text-align: center"><strong>Se</strong></div><sup>34<sup></td>
+					<td style="background:burlywood"><div style="text-align: right"><sub>70.806</sub></div><div style="text-align: center"><strong>Br</strong></div><sup>35<sup></td>
+					<td style="background:red"><div style="text-align: right"><sub>70.897</sub></div><div style="text-align: center"><strong>Kr</strong></div><sup>36<sup></td>
+											
+		</tr>
+		<tr style="background: purple">
+					<td style="background:greenyellow"><div style="text-align: right"><sub>33.45</sub></div><div style="text-align: center"><strong>Rb</strong></div><sup>37<sup></td>
+						<td style="background:blue"><div style="text-align: right"><sub>53.45</sub></div><div style="text-align: center">Sr<strong></strong></div><sup>38<sup></td>
+					<td ><div style="text-align: right"><sub>38.456</sub></div><div style="text-align: center"><strong>Y</strong></div><sup>39<sup></td>
+					<td ><div style="text-align: right"><sub>39.567</sub></div><div style="text-align: center"><strong>Zr</strong></div><sup>40<sup></td>
+					<td ><div style="text-align: right"><sub>40.67</sub></div><div style="text-align: center"><strong>Nb</strong></div><sup>41<sup></td>
+					<td ><div style="text-align: right"><sub>41.456</sub></div><div style="text-align: center"><strong>Mo</strong></div><sup>42<sup></td>
+					<td ><div style="text-align: right"><sub>42.453</sub></div><div style="text-align: center"><strong>Tc</strong></div><sup>43<sup></td>
+					<td ><div style="text-align: right"><sub>43.567</sub></div><div style="text-align: center"><strong>Ru</strong></div><sup>44<sup></td>
+					<td ><div style="text-align: right"><sub>44.56</sub></div><div style="text-align: center"><strong>Rh</strong></div><sup>45<sup></td>
+					<td ><div style="text-align: right"><sub>45.33</sub></div><div style="text-align: center"><strong>Pd</strong></div><sup>46<sup></td>
+					<td ><div style="text-align: right"><sub>46.88</sub></div><div style="text-align: center"><strong>Ag</strong></div><sup>47<sup></td>
+					<td ><div style="text-align: right"><sub>47.686</sub></div><div style="text-align: center"><strong>Cd</strong></div><sup>48<sup></td>
+					<td style="background:yellow"><div style="text-align: right"><sub>48.57</sub></div><div style="text-align: center"><strong>In</strong></div><sup>49<sup></td>
+					<td style="background:yellow"><div style="text-align: right"><sub>49.57</sub></div><div style="text-align: center"><strong>Sn</strong></div><sup>50<sup></td>
+					<td style="background:plum"><div style="text-align: right"><sub>50.567</sub></div><div style="text-align: center"><strong>Sb</strong></div><sup>51<sup></td>
+					<td style="background:plum"><div style="text-align: right"><sub>51.567</sub></div><div style="text-align: center"><strong>Te</strong></div><sup>52<sup></td>
+					<td style="background:burlywood"><div style="text-align: right"><sub>52.57</sub></div><div style="text-align: center"><strong>I</strong></div><sup>53<sup></td>
+					<td style="background:red"><div style="text-align: right"><sub>53</sub></div><div style="text-align: center"><strong>Xe</strong></div><sup>54<sup></td>
+					
+		</tr>
+		<tr style="background: purple">
+				<td style="background:greenyellow"><div style="text-align: right"><sub>55.577</sub></div><div style="text-align: center"><strong>Cs</strong></div><sup>55<sup></td>
+				<td style="background:blue"><div style="text-align: right"><sub>56.45</sub></div><div style="text-align: center"><strong>Ba</strong></div><sup>56<sup></td>
+				<td class = "empty" bgcolor="white" colspan="1"></td>
+				<td ><div style="text-align: right"><sub>72.456</sub></div><div style="text-align: center"><strong>Hf</strong></div><sup>72<sup></td>
+				<td ><div style="text-align: right"><sub>73.53</sub></div><div style="text-align: center"><strong>Ta</strong></div><sup>73<sup></td>
+				<td ><div style="text-align: right"><sub>74.6</sub></div><div style="text-align: center"><strong>W</strong></div><sup>74<sup></td>
+				<td ><div style="text-align: right"><sub>75</sub></div><div style="text-align: center"><strong>Re</strong></div><sup>75<sup></td>
+				<td ><div style="text-align: right"><sub>76.46/sub></div><div style="text-align: center"><strong>Os</strong></div><sup>76<sup></td>
+				<td ><div style="text-align: right"><sub>77.68</sub></div><div style="text-align: center"><strong>Ir</strong></div><sup>77<sup></td>
+				<td ><div style="text-align: right"><sub>78.46</sub></div><div style="text-align: center"><strong>Pt</strong></div><sup>78<sup></td>
+				<td ><div style="text-align: right"><sub>79.544</sub></div><div style="text-align: center"><strong>Au</strong></div><sup>79<sup></td>
+				<td ><div style="text-align: right"><sub>80.33</sub></div><div style="text-align: center"><strong>Hg</strong></div><sup>80<sup></td>
+				<td style="background:yellow"><div style="text-align: right"><sub>81</sub></div><div style="text-align: center"><strong>Tl</strong></div><sup>81</sup></td>
+				<td style="background:yellow"><div style="text-align: right"><sub>82</sub></div><div style="text-align: center"><strong>Pd</strong></div><sup>82<sup></td>
+				<td style="background:yellow"><div style="text-align: right"><sub>83.</sub></div><div style="text-align: center"><strong>Bi</strong></div><sup>83<sup></td>
+				<td style="background:yellow"><div style="text-align: right"><sub>84</sub></div><div style="text-align: center"><strong>Po</strong></div><sup>84<sup></td>
+				<td style="background:burlywood"><div style="text-align: right"><sub>85</sub></div><div style="text-align: center"><strong>At</strong></div><sup>85<sup></td>
+				<td style="background:red"><div style="text-align: right"><sub>86</sub></div><div style="text-align: center"><strong>Rn</strong></div><sup>86<sup></td>
+				
+		</tr>
+		<tr style="background: purple">
+						<td style="background:greenyellow"><div style="text-align: right"><sub>223</sub></div><div style="text-align: center"><strong>Fr</strong></div><sup>87<sup></td>
+						<td style="background:blue"><div style="text-align: right"><sub>226</sub></div><div style="text-align: center"><strong>Ra</strong></div><sup>88<sup></td>
+						<td class = "empty" bgcolor="white" colspan="1"></td>
+						<td ><div style="text-align: right"><sub>267</sub></div><div style="text-align: center"><strong>Rf</strong></div><sup>104<sup></td>
+						<td ><div style="text-align: right"><sub>268</sub></div><div style="text-align: center"><strong>Db</strong></div><sup>105<sup></td>
+						<td ><div style="text-align: right"><sub>269</sub></div><div style="text-align: center"><strong>Sg</strong></div><sup>106<sup></td>
+						<td ><div style="text-align: right"><sub>270</sub></div><div style="text-align: center"><strong>Bh</strong></div><sup>107<sup></td>
+						<td ><div style="text-align: right"><sub>277</sub></div><div style="text-align: center"><strong>Hs</strong></div><sup>108<sup></td>
+						<td style="background:orchid"><div style="text-align: right"><sub>278</sub></div><div style="text-align: center"><strong>Mt</strong></div><sup>109<sup></td>
+						<td style="background:orchid"><div style="text-align: right"><sub>281</sub></div><div style="text-align: center"><strong>Ds</strong></div><sup>110<sup></td>
+						<td style="background:orchid"><div style="text-align: right"><sub>282</sub></div><div style="text-align: center"><strong>Rg</strong></div><sup>111<sup></td>
+						<td ><div style="text-align: right"><sub>285</sub></div><div style="text-align: center"><strong>Cn</strong></div><sup>112<sup></td>
+						<td style="background:orchid"><div style="text-align: right"><sub>286</sub></div><div style="text-align: center"><strong>Uut</strong></div><sup>113<sup></td>
+						<td style="background:orchid"><div style="text-align: right"><sub>289</sub></div><div style="text-align: center"><strong>Fl</strong></div><sup>114<sup></td>
+						<td style="background:orchid"><div style="text-align: right"><sub>290</sub></div><div style="text-align: center"><strong>Uup</strong></div><sup>115<sup></td>
+						<td style="background:orchid"><div style="text-align: right"><sub>293</sub></div><div style="text-align: center"><strong>Lv</strong></div><sup>116<sup></td>
+						<td style="background:orchid"><div style="text-align: right"><sub>294</sub></div><div style="text-align: center"><strong>Uus</strong></div><sup>117<sup></td>
+						<td style="background:red"><div style="text-align: right"><sub>294</sub></div><div style="text-align: center"><strong>Og</strong></div><sup>118<sup></td>
 						
 		</tr>
 	</table>
 	<br>
-	<table align="left" border="border-color:black">
-		<tr bgcolor="brown">
-			
-			<td bgcolor=""><sub>57</sub><strong>La</strong><sup>34</sup></td>
-			<td bgcolor=""><sub>58</sub><strong>Ce</strong><sup>34</sup></td>
-			<td bgcolor=""><sub>59</sub><strong>Pr</strong><sup>34</sup></td>
-			<td bgcolor=""><sub>60</sub><strong>Nd</strong><sup>34</sup></td>
-			<td bgcolor=""><sub>61</sub><strong>Pm</strong><sup>34</sup></td>
-			<td bgcolor=""><sub>62</sub><strong>Sm</strong><sup>34</sup></td>
-			<td bgcolor=""><sub>63</sub><strong>Eu</strong><sup>34</sup></td>
-			<td bgcolor=""><sub>64</sub><strong>Gd</strong><sup>34</sup></td>
-			<td bgcolor=""><sub>65</sub><strong>Tb</strong><sup>34</sup></td>
-			<td bgcolor=""><sub>66</sub><strong>Dy</strong><sup>34</sup></td>
-			<td bgcolor=""><sub>67</sub><strong>Ho</strong><sup>34</sup></td>
-			<td bgcolor=""><sub>68</sub><strong>Er</strong><sup>34</sup></td>
-			<td bgcolor=""><sub>69</sub><strong>Tm</strong><sup>34</sup></td>
-			<td bgcolor=""><sub>70</sub><strong>Yb</strong><sup>34</sup></td>
-			<td bgcolor=""><sub>71</sub><strong>Lu</strong><sup>34</sup></td>			
-			
+</div>
+<div>
+<table  align="center"  contenteditable="true" >
+	<tr style="background: powderblue">
+		<td bgcolor="white" class="empty" colspan="3"></td>
+		<td><div style="text-align: right"><sub>138.4</sub></div><div style="text-align: center"><strong>La</strong></div><sup>57<sup></td>
+			<td ><div style="text-align: right"><sub>140.3</sub></div><div style="text-align: center"><strong>Ce</strong></div><sup>58<sup></td>
+			<td ><div style="text-align: right"><sub>140.3</sub></div><div style="text-align: center"><strong>Pr</strong></div><sup>59<sup></td>
+			<td ><div style="text-align: right"><sub>145</sub></div><div style="text-align: center"><strong>Nd</strong></div><sup>60<sup></td>
+			<td ><div style="text-align: right"><sub>150.4</sub></div><div style="text-align: center"><strong>Pm</strong></div><sup>61<sup></td>
+			<td ><div style="text-align: right"><sub>153.4</sub></div><div style="text-align: center"><strong>Sm</strong></div><sup>62<sup></td>
+			<td ><div style="text-align: right"><sub>258.4</sub></div><div style="text-align: center"><strong>Eu</strong></div><sup>63<sup></td>
+			<td ><div style="text-align: right"><sub>264</sub></div><div style="text-align: center"><strong>Gd</strong></div><sup>64<sup></td>
+			<td ><div style="text-align: right"><sub>265.6</sub></div><div style="text-align: center"><strong>Tb</strong></div><sup>65<sup></td>
+			<td ><div style="text-align: right"><sub>268.5</sub></div><div style="text-align: center"><strong>Dy</strong></div><sup>66<sup></td>
+			<td ><div style="text-align: right"><sub>264.54</sub></div><div style="text-align: center"><strong>Ho</strong></div><sup>67<sup></td>
+			<td ><div style="text-align: right"><sub>268.9</sub></div><div style="text-align: center"><strong>Er</strong></div><sup>68<sup></td>
+			<td ><div style="text-align: right"><sub>273.3</sub></div><div style="text-align: center"><strong>Tm</strong></div><sup>69<sup></td>
+			<td ><div style="text-align: right"><sub>175.8</sub></div><div style="text-align: center"><strong>Yb</strong></div><sup>70<sup></td>
+			<td><div style="text-align: right"><sub>174.5</sub></div><div style="text-align: center"><strong>Lu</strong></div><sup>71<sup></td>
 
-		</tr>
-		<tr bgcolor="pink">
-			
-			<td bgcolor=""><sub>89</sub><strong>Ac</strong><sup>34</sup></td>
-			<td bgcolor=""><sub>90</sub><strong>Th</strong><sup>34</sup></td>
-			<td bgcolor=""><sub>91</sub><strong>Pa</strong><sup>34</sup></td>
-			<td bgcolor=""><sub>92</sub><strong>U</strong><sup>34</sup></td>
-			<td bgcolor=""><sub>93</sub><strong>Np</strong><sup>34</sup></td>
-			<td bgcolor=""><sub>94</sub><strong>Pu</strong><sup>34</sup></td>
-			<td bgcolor=""><sub>95</sub><strong>Am</strong><sup>34</sup></td>
-			<td bgcolor=""><sub>96</sub><strong>Cm</strong><sup>34</sup></td>
-			<td bgcolor=""><sub>97</sub><strong>Bk</strong><sup>34</sup></td>
-			<td bgcolor=""><sub>98</sub><strong>Cf</strong><sup>34</sup></td>
-			<td bgcolor=""><sub>99</sub><strong>Es</strong><sup>34</sup></td>
-			<td bgcolor=""><sub>100</sub><strong>Fm</strong><sup>34</sup></td>
-			<td bgcolor=""><sub>101</sub><strong>Md</strong><sup>34</sup></td>
-			<td bgcolor=""><sub>102</sub><strong>No</strong><sup>34</sup></td>
-			<td bgcolor=""><sub>103</sub><strong>Lr</strong><sup>34</sup></td>
-		</tr>
-	</table>
-	</div>
+	</tr>
+	<tr bgcolor="pink">
+			<td bgcolor="white" class="empty" colspan="3"></td>
+			<td><div style="text-align: right"><sub>227</sub></div><div style="text-align: center"><strong>Ac</strong></div><sup>89<sup></td>
+				<td ><div style="text-align: right"><sub>232.04</sub></div><div style="text-align: center"><strong>Th</strong></div><sup>90<sup></td>
+				<td ><div style="text-align: right"><sub>231.03</sub></div><div style="text-align: center"><strong>Pa</strong></div><sup>91<sup></td>
+				<td ><div style="text-align: right"><sub>238.04</sub></div><div style="text-align: center"><strong>U</strong></div><sup>92<sup></td>
+				<td ><div style="text-align: right"><sub>237</sub></div><div style="text-align: center"><strong>Np</strong></div><sup>93<sup></td>
+					<td ><div style="text-align: right"><sub>244</sub></div><div style="text-align: center"><strong>Pu</strong></div><sup>94<sup></td>
+				<td ><div style="text-align: right"><sub>243</sub></div><div style="text-align: center"><strong>Am</strong></div><sup>95<sup></td>
+				<td ><div style="text-align: right"><sub>247</sub></div><div style="text-align: center"><strong>Cm</strong></div><sup>96<sup></td>
+				<td ><div style="text-align: right"><sub>247</sub></div><div style="text-align: center"><strong>Bk</strong></div><sup>97<sup></td>
+				<td ><div style="text-align: right"><sub>251</sub></div><div style="text-align: center"><strong>Cf</strong></div><sup>98<sup></td>
+				<td ><div style="text-align: right"><sub>252</sub></div><div style="text-align: center"><strong>Es</strong></div><sup>99<sup></td>
+				<td ><div style="text-align: right"><sub>257</sub></div><div style="text-align: center"><strong>Fm</strong></div><sup>100<sup></td>
+				<td ><div style="text-align: right"><sub>258</sub></div><div style="text-align: center"><strong>Md</strong></div><sup>101<sup></td>
+				<td ><div style="text-align: right"><sub>259</sub></div><div style="text-align: center"><strong>No</strong></div><sup>102<sup></td>
+				<td ><div style="text-align: right"><sub>266</sub></div><div style="text-align: center"><strong>Lr</strong></div><sup>103<sup></td>
+				
+				
+	</tr>
+	</tr>
+</table>
+</div>
+
 </body>
 
 </html>
