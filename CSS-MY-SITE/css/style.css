@@ -1,0 +1,27 @@
+body{
+    margin: 0;
+    text-align: center;
+}
+.top-container{
+    background-color:hsl(164, 100%, 81%);
+}
+.middle-container{
+
+}
+.bottom-container{
+
+}
+
+.img1 {
+    position: relative;
+    left: 300px;
+ 
+}
+.img2 {
+    position: relative;
+    bottom: 300px;
+}
+.img3 {
+    position: relative;
+    right: 50px;
+}

@@ -1,0 +1,19 @@
+body{
+    background-color:ededed;
+}
+.avatar{
+    border-radius: 50%;
+    height: 110px;
+    width: 115px;
+    vertical-align: middle;
+}
+hr{
+    border-color: gray;
+    border-style: dotted none none;
+    width: 20%;
+    height: 0px;
+    border-width: 7px;
+}
+h1,h3,h2{
+    color: tan;
+}
